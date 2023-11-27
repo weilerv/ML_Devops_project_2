@@ -4,8 +4,9 @@ This script splits the provided dataframe in test and remainder
 """
 import argparse
 import logging
-import pandas as pd
+
 import wandb
+import pandas as pd
 import tempfile
 from sklearn.model_selection import train_test_split
 from wandb_utils.log_artifact import log_artifact
