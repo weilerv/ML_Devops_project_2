@@ -16,3 +16,4 @@ dependencies:
   - pip:
       - wandb==0.16.0
       - protobuf==3.20.1
+      - ydata_profiling
